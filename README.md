@@ -1,7 +1,7 @@
 Self driving car lane and path detection
 =========================================
 ## Running OpenPilot on GTAV 
-explain project
+This project is a fork from [littlemountainman/modeld](https://github.com/littlemountainman/modeld) 
 
 ## How to install
 
@@ -13,5 +13,5 @@ explain project
 
 ## Credits
 
-[Little     ](https://github.com/commaai/openpilot/blob/master/models/supercombo.keras)
+[littlemountainman/modeld](https://github.com/littlemountainman/modeld)
 
