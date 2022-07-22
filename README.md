@@ -2,6 +2,7 @@ Self driving car lane and path detection
 =========================================
 ## Running OpenPilot on GTAV 
 This project is a fork from [littlemountainman/modeld](https://github.com/littlemountainman/modeld) 
+We used his work and coupled Deepgtav and Vpilot to be able to use comma.ai's opensource software and apply it on GTAV and create autonomous vehicles managed by openpilot algorithms 
 
 ## How to install
 
