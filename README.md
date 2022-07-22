@@ -9,9 +9,9 @@ To be able to run this, I recommend using Python 3.7 or up.
 
 1. Install the requirements 
 
-<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>
+```
 pip3 install -r requirements.txt
-<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>
+```
 
 This will install all the necessary dependencies for running this. 
 
@@ -26,15 +26,14 @@ This will install all the necessary dependencies for running this.
 6. Copy-paste the contents of DeepGTAV/bin/Release under your GTAV installation directory
 
 7. Launch the program and GTAV is already running
-<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>
+```
 python3 main.py
-<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>
-
-
-## What's next ? 
+```
 
 
 ## Credits
 
 [littlemountainman/modeld](https://github.com/littlemountainman/modeld)
+[aitorzip/DeepGTAV](https://github.com/aitorzip/DeepGTAV)
+[aitorzip/VPilot](https://github.com/aitorzip/VPilot)
 
