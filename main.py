@@ -10,6 +10,18 @@ from tensorflow.keras.models import load_model
 from common.tools.lib.parser import parser
 import sys
 
+#-------------------------to detect ctrl+c and close the client
+#!/usr/bin/env python
+import signal
+import sys
+
+def signal_handler(sig, frame):
+    client.close()
+    sys.exit(0)
+
+signal.signal(signal.SIGINT, signal_handler)
+
+
 #--------------------------------import Vpilot
 
 from deepgtav.messages import Start, Stop, Scenario, Commands, frame2numpy, Dataset
