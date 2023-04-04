@@ -16,8 +16,8 @@ import signal
 import sys
 
 def signal_handler(sig, frame):
-    client.close()
-    sys.exit(0)
+  client.close()
+  sys.exit(0)
 
 signal.signal(signal.SIGINT, signal_handler)
 
